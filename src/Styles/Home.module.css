@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+}
+
+.home{
+    background-image: url('./landing.gif');
+    background-repeat: no-repeat;
+    background-size: 420vh;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.wiki{
+    background: transparent;
+    border: transparent;
+    height: 4.5rem; 
+    width: 25rem;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 2.3rem;
+    align-items: center;
+    margin-left: 30rem;
+    color: black;
+    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    transition: 350ms;
+}
+
+.wiki:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.play{
+    position: absolute;
+    top: 1.5rem;
+    right: 3.5rem;
+    font-size: 1.8rem;
+    background: radial-gradient(#fb1abbcf, rgba(0, 0, 0, 0));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    border-radius: 9999rem;
+    border-color: transparent;
+
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.play:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+.play:active{
+    color: #f4a8de;
+}
+
+.search{
+    background-color: rgba(255, 104, 235, 0.629);
+    border-radius: 20rem;
+    width: 20rem;
+    height: 2rem;
+    border: transparent;
+    
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.search::placeholder{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search:hover{
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+/*refresh*/
+
+.btn{
+    border-radius: 5rem;
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+.create{
+    border-radius: 5rem;
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.create:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+/*selectors*/
+.selectors{
+    display: flex;
+    justify-content: center;
+}
+
+.select{
+    margin-left: 3rem;
+    border-radius: 5rem;
+    width: 8rem;
+    height: 2rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.select:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.628);
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+
+/*paginated*/
+.paginated{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    height: 5rem;
+}
+
+.btnPage{
+    margin-left: 1.3rem;
+    border-radius: 9999rem;
+    width: 3rem;
+    height: 2rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.btnPage:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+.father{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/*not found*/
+.image{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 70%;
+    margin-top: 1rem;
+    margin-left: 35rem;
+}
+
+.image > div{
+    width: 100%;
+    height: 50%;
+}
+
+.image > div > img{
+    height: 100%;
+    width: 100%;
+}
+
+.image > div > h1{
+    color: black;
+    margin-left: 8.5rem;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 3rem;
+    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+}
+

@@ -1,0 +1,142 @@
+.detail{
+    background-image: url('./landing.gif');
+    background-repeat: no-repeat;
+    background-size: 100vw, 100vh;
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
+
+/* .overlay{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #303952;
+    opacity: .6;
+} */
+
+.container{
+    z-index: 2;
+}
+
+.container > h2{
+    margin: 0;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 2.5rem;
+    color: black;
+    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6
+}
+
+.content > div > label{
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 1.1rem;
+    color: black;
+    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+}
+
+.div{
+    width: 95%;
+    height: 70%;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.div > div{
+    width: 50%;
+}
+
+.div > div > div > p{
+    font-family: 'Encode Sans', sans-serif;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.descrip > label{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    border-radius: 0.3rem;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.descrip > p{
+    background: linear-gradient(#000000c0, rgba(0, 0, 0, 0));
+    font-family: 'Encode Sans', sans-serif;
+    margin-left: 7rem;
+    width: 85vw;
+    height: 22vh;
+    overflow:scroll;
+    overflow-y:visible;
+    overflow-x:hidden;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+
+.divImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 9999rem;
+    overflow: hidden;
+    transition: 200ms;
+}
+
+.img:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+/*website*/
+.website{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 28rem;
+    padding: 1rem;
+}
+
+.web{
+    text-decoration: none;
+    border-radius: 5rem;
+    width: 7rem;
+    height: 2rem;
+    padding-left: 1.9rem;
+    padding-top: 0.7rem;
+    font-size: 1.3rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+    color: black;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.web:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}

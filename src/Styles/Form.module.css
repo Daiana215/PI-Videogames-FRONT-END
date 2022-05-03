@@ -1,0 +1,187 @@
+.content{
+    background-image: url('./landing.gif');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
+
+.container{
+    z-index: 2;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 9rem;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+    background: transparent;
+    box-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+}
+
+.formulario{
+    width: 140%;
+    height: 115%;
+    margin-left: -8rem;
+    margin-top: 0.6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 0.1rem; 
+}
+
+.buttons{
+    margin: 0;
+    margin-top: 8.2rem;
+    margin-left: 68.2rem;
+    margin-right: 5rem;
+    border-radius: 5rem;
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.select{
+    overflow:scroll;
+    overflow-y:visible;
+    overflow-x:hidden;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+    cursor: pointer;
+}
+
+.formulario > div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    width: 25rem;
+    height: 4rem;
+}
+
+.li{
+    display: flex;
+    flex-direction: row;
+    width: -100rem;
+    height: 100%;
+    justify-content: space-around;
+    width: 25rem;
+    padding: 0.2rem;
+}
+
+.li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.formulario > div > select{
+    width: 25rem;
+    height: 2rem;
+    color: white;
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+    padding: 0.3rem;
+}
+
+.formulario > div > p{
+    margin: 0;
+    padding: 0.1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    border: transparent;
+    border-radius: 9999rem;
+    cursor: pointer;
+    box-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+}
+
+.formulario > div > select > option{
+    background-color: black;
+}
+
+.formulario > div > textarea{
+    resize: none;
+    width: 100%;
+    height: 7rem;
+    color: white;
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+    padding: 0;
+}
+
+.formulario > div > input{
+    width: 100%;
+    height: 2rem;
+    color: white;
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+    padding: 0;
+}
+
+.container > div > h1 {
+    margin: 0;
+    margin-top: -2rem;
+    min-width: 50vw;
+    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    color: black;
+}
+
+.back{
+    margin: 0;
+    margin-left: -12.8rem;
+    margin-right: 5rem;
+    border-radius: 5rem;
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.back:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
+
+.btn{
+    margin: 0;
+    margin-right: 5rem;
+    border-radius: 5rem;
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Rubik Glitch';
+    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    border: transparent;
+
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #fc73d6;
+    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+}
