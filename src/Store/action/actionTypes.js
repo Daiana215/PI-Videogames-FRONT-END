@@ -1,5 +1,3 @@
-export const GET_URL = 'http://localhost:3001/videogames';
-
 export const GET_FILTER_PLATFORMS = 'GET_FILTER_PLATFORMS';
 export const GET_CREATED_OR_NOT = 'GET_CREATED_OR_NOT';
 export const GET_FILTER_RATING = 'GET_FILTER-RATING';

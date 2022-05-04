@@ -1,3 +1,4 @@
+import axios from "axios";
 import { 
     GET_VIDEOGAMES,
     GET_GENRES,
@@ -5,7 +6,6 @@ import {
     GET_CREATED_OR_NOT, 
     GET_FILTER_ALPHA, 
     GET_FILTER_RATING, 
-    GET_URL,
     POST_VIDEOGAME, 
     SET_LOADING,
     GET_FILTER_PLATFORMS} from "./actionTypes";
@@ -20,8 +20,8 @@ export function setLoading(payload){
 export function getVideogames(){
     return async (dispatch) => {
         dispatch(setLoading(true));
-        const res = await fetch(GET_URL);
-        const res_1 = await res.json();
+        const res = await axios('/videogames');
+        const res_1 = await res.data;
         return dispatch({
             type: GET_VIDEOGAMES,
             payload: res_1
@@ -32,8 +32,8 @@ export function getVideogames(){
 export const getGenres = (value)=>{
     return async (dispatch) => {
         dispatch(setLoading(true))
-        const res = await fetch(`http://localhost:3001/genres`);
-        const res_1 = await res.json();
+        const res = await axios(`/genres`);
+        const res_1 = await res.data;
         return dispatch({
             type: GET_GENRES,
             payload: {payload: res_1, value: value}
@@ -44,8 +44,8 @@ export const getGenres = (value)=>{
 export function getGamesByName(name){
     return async (dispatch) => {
         dispatch(setLoading(true))
-        const res = await fetch(GET_URL+`?name=${name}`);
-        const res_1 = await res.json();
+        const res = await axios(`/videogames?name=${name}`);
+        const res_1 = await res.data;
         return dispatch({
             type: GET_BY_NAME,
             payload: res_1
@@ -55,15 +55,8 @@ export function getGamesByName(name){
             
 export function postVideogame(payload){
     return async (dispatch) => {
-        const res = await fetch(`http://localhost:3001/videogame`, {
-            method: 'POST',
-            headers: {
-                accept: 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(payload),
-        });
-        const res_1 = await res.json();
+        const res = await axios.post(`/videogame`);
+        const res_1 = await res.data;
         return dispatch({
             type: POST_VIDEOGAME,
             payload: payload
