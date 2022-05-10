@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
 import style from '../Styles/Detail.module.css';
@@ -8,9 +9,8 @@ export default function VideogameDetail(props){
     let [ state, setState ] = useState();
     
     useEffect(() => {
-        fetch(`http://localhost:3001/videogame/${id}`)
-        .then(res => res.json())
-        .then(res => setState(res))
+        axios(`/videogame/${id}`)
+        .then(res => setState(res.data))
     }, [id]);
     
     const handleNavigate = () => {
