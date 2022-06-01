@@ -55,11 +55,11 @@ export function getGamesByName(name){
             
 export function postVideogame(payload){
     return async (dispatch) => {
-        const res = await axios.post(`/videogame`);
+        const res = await axios.post(`/videogame`, payload);
         const res_1 = await res.data;
         return dispatch({
             type: POST_VIDEOGAME,
-            payload: payload
+            payload: res_1
         });
     };
 };

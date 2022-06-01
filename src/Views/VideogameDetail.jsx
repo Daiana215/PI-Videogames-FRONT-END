@@ -26,7 +26,6 @@ export default function VideogameDetail(props){
             {state && (
                 <>
                 <h2>{state.name}</h2>
-                {id.includes('-') ? (<a href='/delete'>Delete</a>) : null}
                 <div className={style.div}>
                     <div className={style.divImg}>
                         <img onClick={() => handleNavigate()} className={style.img} src={state.image} alt="Videogame"/>
