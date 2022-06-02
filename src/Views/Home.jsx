@@ -12,7 +12,7 @@ export default function Home(props){
         <div className={style.image}>
             <div className={style.overlay}></div>
             
-            <Contenedor>
+            <Contenedor> 
             <div className={style.content}>
                 <h1 className={style.h1}>Do you wanna play?</h1>
             </div>
