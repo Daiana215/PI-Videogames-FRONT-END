@@ -1,5 +1,5 @@
 .detail{
-    background-image: url('./landing.gif');
+    background-image: url('./saw.jpg');
     background-repeat: no-repeat;
     background-size: 100vw, 100vh;
     width: 100vw;
@@ -11,17 +11,6 @@
     top: 0%;
     right: 0%;
 }
-
-/* .overlay{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: #303952;
-    opacity: .6;
-} */
 
 .container{
     z-index: 2;
@@ -35,7 +24,7 @@
     font-family: 'Rubik Glitch', cursive;
     font-size: 2.5rem;
     color: black;
-    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6
+    text-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem  #ff0000, 0 0 1rem #ff0000;
 }
 
 .content > div > label{
@@ -44,7 +33,7 @@
     font-family: 'Rubik Glitch', cursive;
     font-size: 1.1rem;
     color: black;
-    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    text-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000;
 }
 
 .div{
@@ -68,7 +57,7 @@
     margin-left: 3rem;
     font-size: 1.5rem;
     color: black;
-    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    text-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000;
     border-radius: 0.3rem;
     font-family: 'Rubik Glitch', cursive;
 }
@@ -103,8 +92,8 @@
 .img:hover{
     transform: scale(1.05);
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 /*website*/
@@ -125,7 +114,7 @@
     padding-top: 0.7rem;
     font-size: 1.3rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
     color: black;
 
@@ -137,6 +126,6 @@
     cursor: pointer;
     transform: scale(1.1);
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }

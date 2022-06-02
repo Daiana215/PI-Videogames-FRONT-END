@@ -1,9 +1,10 @@
 .image{
-    background-image: url('./landing.gif');
+    background-image: url('./jigsaw-scary.gif');
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: 100vw, 100vh;
     width: 100vw;
     display: flex;
+    height: 100vh;
     align-items: center;
     color: #fff;
     position: fixed;
@@ -11,7 +12,7 @@
     right: 0%;
 }
 
-/* .overlay{
+.overlay{
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -19,8 +20,8 @@
     left: 0;
     z-index: 1;
     background: #303952;
-    opacity: .4;
-} */
+    opacity: .2;
+}
 
 .content{
     z-index: 2;
@@ -29,17 +30,14 @@
 .h1{
     width: 100%;
     height: 100%;
-    margin-bottom: 2rem;
     align-content: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
     font-size: 3.8rem;
     font-family: 'Rubik Glitch', cursive;
     color: transparent;
     -webkit-text-stroke: 1px #ffffff;
 
     transition: 300ms; 
-    text-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    text-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 .h1:hover{
@@ -70,8 +68,8 @@
 
 .in:hover{
     transform: scale(1.05);
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 .github{
@@ -92,8 +90,8 @@
 
 .git:hover{
     transform: scale(1.05);
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 .link{
@@ -104,8 +102,9 @@
     font-size: 2rem;
     font-family: 'Rubik Glitch', cursive;
     text-decoration: none;
-    background: #eb4aeb;
+    background: #ff0000;
     padding: 0.5rem 1rem;
+    text-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
     
 
     border-radius: 5rem;
@@ -117,6 +116,6 @@
 }
 .link:hover{
     transform: scale(1.1);
-    background-color: #fb42c7;
-    box-shadow: 0 0 1rem #fb42c7, 0 0 4rem #fb42c7, 0 0 8rem #fb42c7;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem  #ff0000;
 }

@@ -6,7 +6,6 @@ export default function Videogame(props){
     const { id, image, name, genres } = videogame;
 
     return(
-        // <Cards>
         <div className={style.card}>
             <div className={style.front}>
                 <img
@@ -17,9 +16,10 @@ export default function Videogame(props){
             <div className={style.back}>
                 <h3 className={style.name}>{name}</h3>
                 <p className={style.genres}>{genres.join(', ')}</p>
-                <button onClick={() => navigate(id)}>Detail</button>
+                <div className={style.div}>
+                    <button onClick={() => navigate(id)}>Detail</button>
+                </div>
             </div>
         </div>
-        /* </Cards> */
     );
 };

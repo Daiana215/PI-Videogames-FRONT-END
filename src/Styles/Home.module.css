@@ -3,11 +3,13 @@ body{
 }
 
 .home{
-    background-image: url('./landing.gif');
-    background-repeat: no-repeat;
-    background-size: 420vh;
-    margin: 0;
+    background-color: black;
     min-height: 100vh;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
 }
 
 .wiki{
@@ -18,9 +20,8 @@ body{
     font-family: 'Rubik Glitch', cursive;
     font-size: 2.3rem;
     align-items: center;
-    margin-left: 30rem;
     color: black;
-    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    text-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000;
     transition: 350ms;
 }
 
@@ -34,7 +35,7 @@ body{
     top: 1.5rem;
     right: 3.5rem;
     font-size: 1.8rem;
-    background: radial-gradient(#fb1abbcf, rgba(0, 0, 0, 0));
+    background: radial-gradient(#ff0000, rgba(0, 0, 0, 0));
 
     display: flex;
     justify-content: center;
@@ -51,15 +52,15 @@ body{
 .play:hover{
     cursor: pointer;
     transform: scale(1.2);
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 .play:active{
-    color: #f4a8de;
+    color: #ff5555;
 }
 
 .search{
-    background-color: rgba(255, 104, 235, 0.629);
+    background-color: rgba(255, 37, 37, 0.629);
     border-radius: 20rem;
     width: 20rem;
     height: 2rem;
@@ -76,8 +77,8 @@ body{
 
 .search:hover{
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 /*refresh*/
@@ -87,7 +88,7 @@ body{
     width: 5rem;
     height: 2rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
 
     overflow: hidden;
@@ -98,8 +99,8 @@ body{
     cursor: pointer;
     transform: scale(1.1);
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 .create{
@@ -107,7 +108,7 @@ body{
     width: 5rem;
     height: 2rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
 
     overflow: hidden;
@@ -118,8 +119,8 @@ body{
     cursor: pointer;
     transform: scale(1.1);
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 /*selectors*/
@@ -134,7 +135,7 @@ body{
     width: 8rem;
     height: 2rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
 
     overflow: hidden;
@@ -145,7 +146,7 @@ body{
     cursor: pointer;
     color: white;
     background-color: rgba(0, 0, 0, 0.628);
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 
@@ -163,7 +164,7 @@ body{
     width: 3rem;
     height: 2rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
 
     overflow: hidden;
@@ -173,8 +174,8 @@ body{
 .btnPage:hover{
     cursor: pointer;
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 .father{
@@ -210,6 +211,6 @@ body{
     margin-left: 8.5rem;
     font-family: 'Rubik Glitch', cursive;
     font-size: 3rem;
-    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    text-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000;
 }
 

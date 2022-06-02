@@ -24,8 +24,6 @@ export default function Home(props){
                 <a href='https://www.linkedin.com/in/daiana-grillia'><img className={style.in} src={linkedin}/></a>
             </div>
             <div className={style.github}>
-                {/* <img src='https://library.kissclipart.com/20181116/tq/kissclipart-github-octocat-clipart-github-inc-d75c5e491a5ca190.jpg'
-                /> */}
                 <a href='https://github.com/Daiana215'><img className={style.git} src={github}
                 /></a>
             </div>

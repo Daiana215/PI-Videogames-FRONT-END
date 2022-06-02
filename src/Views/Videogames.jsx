@@ -129,7 +129,9 @@ export default function Videogames(props){
     
     return(
         <div className={style.home}>
-            <button className={style.wiki} onClick={() => push('/')}>WIKIGAMES</button>
+            <div className={style.div}>
+                <button className={style.wiki} onClick={() => push('/')}>WIKIGAMES</button>
+            </div>
             <div>
                 <button className={style.play} onClick={handleOnClickPlay}><FaPlayCircle/></button>
             </div>

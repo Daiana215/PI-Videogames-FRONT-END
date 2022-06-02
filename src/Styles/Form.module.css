@@ -1,11 +1,12 @@
 .content{
-    background-image: url('./landing.gif');
+    background-image: url('./saw.jpg');
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: 100vw, 100vh;
     width: 100vw;
     display: flex;
+    height: 100vh;
     align-items: center;
-    color: white;
+    color: #fff;
     position: fixed;
     top: 0%;
     right: 0%;
@@ -23,7 +24,7 @@
     margin-bottom: 4rem;
     border-radius: 1rem;
     background: transparent;
-    box-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    box-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000;
 }
 
 .formulario{
@@ -47,7 +48,7 @@
     width: 5rem;
     height: 2rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
 
     overflow: hidden;
@@ -90,7 +91,7 @@
     width: 25rem;
     height: 2rem;
     color: white;
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
     padding: 0.3rem;
 }
@@ -104,7 +105,7 @@
     border: transparent;
     border-radius: 9999rem;
     cursor: pointer;
-    box-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    box-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000;
 }
 
 .formulario > div > select > option{
@@ -116,7 +117,7 @@
     width: 100%;
     height: 7rem;
     color: white;
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
     padding: 0;
 }
@@ -125,7 +126,7 @@
     width: 100%;
     height: 2rem;
     color: white;
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
     padding: 0;
 }
@@ -134,7 +135,7 @@
     margin: 0;
     margin-top: -2rem;
     min-width: 50vw;
-    text-shadow: 0 0 0.2rem #fc73d6, 0 0 0.1rem #fc73d6, 0 0 1rem #fc73d6;
+    text-shadow: 0 0 0.2rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000;
     display: flex;
     justify-content: center;
     font-family: 'Rubik Glitch', cursive;
@@ -151,7 +152,7 @@
     width: 5rem;
     height: 2rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
 
     overflow: hidden;
@@ -161,8 +162,8 @@
 .back:hover{
     cursor: pointer;
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
 
 .btn{
@@ -172,7 +173,7 @@
     width: 5rem;
     height: 2rem;
     font-family: 'Rubik Glitch';
-    background: linear-gradient(#fb42c7c0, rgba(0, 0, 0, 0));
+    background: linear-gradient(#ff0000, rgba(0, 0, 0, 0));
     border: transparent;
 
     overflow: hidden;
@@ -182,6 +183,6 @@
 .btn:hover{
     cursor: pointer;
     color: white;
-    background-color: #fc73d6;
-    box-shadow: 0 0 1rem #fc73d6, 0 0 4rem #fc73d6, 0 0 8rem #fc73d6;
+    background-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000, 0 0 4rem #ff0000, 0 0 8rem #ff0000;
 }
