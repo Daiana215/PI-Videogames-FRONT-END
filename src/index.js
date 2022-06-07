@@ -7,7 +7,8 @@ import { Provider } from 'react-redux';
 import store from './Store';
 import axios from 'axios';
 require('dotenv').config();
-axios.defaults.baseURL = /*process.env.REACT_APP_BACKEND;*/ 'http://localhost:3001'
+axios.defaults.baseURL = process.env.REACT_APP_BACKEND;
+// 'http://localhost:3001'
 
 render(
   <React.StrictMode>
