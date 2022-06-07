@@ -1,4 +1,3 @@
-// import { Cards } from '../Styles/grid-cards';
 import style from '../Styles/Videogame.module.css';
 
 export default function Videogame(props){
